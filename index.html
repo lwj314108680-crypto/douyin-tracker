@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>抖音数据监控</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+        h1 {
+            color: white;
+            text-align: center;
+            margin-bottom: 30px;
+            font-size: 2.5em;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+        }
+        .stats {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            margin-bottom: 30px;
+        }
+        .stat-card {
+            background: white;
+            padding: 20px;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+            text-align: center;
+        }
+        .stat-card h3 {
+            color: #666;
+            font-size: 0.9em;
+            margin-bottom: 10px;
+        }
+        .stat-card .value {
+            color: #667eea;
+            font-size: 2em;
+            font-weight: bold;
+        }
+        .videos {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 20px;
+        }
+        .video-card {
+            background: white;
+            border-radius: 15px;
+            padding: 20px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+            transition: transform 0.3s;
+        }
+        .video-card:hover {
+            transform: translateY(-5px);
+        }
+        .video-title {
+            font-size: 1.1em;
+            font-weight: bold;
+            margin-bottom: 15px;
+            color: #333;
+        }
+        .metric {
+            display: flex;
+            justify-content: space-between;
+            padding: 8px 0;
+            border-bottom: 1px solid #eee;
+        }
+        .metric:last-child { border-bottom: none; }
+        .metric-label { color: #666; }
+        .metric-value { font-weight: bold; color: #333; }
+        .growth {
+            display: inline-block;
+            padding: 2px 8px;
+            border-radius: 12px;
+            font-size: 0.85em;
+            margin-left: 5px;
+        }
+        .growth.up {
+            background: #d4edda;
+            color: #155724;
+        }
+        .growth.down {
+            background: #f8d7da;
+            color: #721c24;
+        }
+        .loading {
+            text-align: center;
+            color: white;
+            font-size: 1.5em;
+            padding: 50px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>📊 抖音数据监控</h1>
+        <div class="stats" id="stats"></div>
+        <div class="videos" id="videos"></div>
+        <div class="loading" id="loading">加载中...</div>
+    </div>
+
+    <script>
+        async function loadData() {
+            try {
+                const response = await fetch('data/latest.json');
+                const data = await response.json();
+                
+                document.getElementById('loading').style.display = 'none';
+                
+                // 统计数据
+                const totalViews = data.reduce((sum, v) => sum + v.play_count, 0);
+                const totalLikes = data.reduce((sum, v) => sum + v.digg_count, 0);
+                const totalComments = data.reduce((sum, v) => sum + v.comment_count, 0);
+                
+                document.getElementById('stats').innerHTML = `
+                    <div class="stat-card">
+                        <h3>总播放量</h3>
+                        <div class="value">${formatNumber(totalViews)}</div>
+                    </div>
+                    <div class="stat-card">
+                        <h3>总点赞</h3>
+                        <div class="value">${formatNumber(totalLikes)}</div>
+                    </div>
+                    <div class="stat-card">
+                        <h3>总评论</h3>
+                        <div class="value">${formatNumber(totalComments)}</div>
+                    </div>
+                    <div class="stat-card">
+                        <h3>作品数</h3>
+                        <div class="value">${data.length}</div>
+                    </div>
+                `;
+                
+                // 视频列表（按播放量排序）
+                data.sort((a, b) => b.play_count - a.play_count);
+                
+                document.getElementById('videos').innerHTML = data.map(v => `
+                    <div class="video-card">
+                        <div class="video-title">${v.desc || '无标题'}</div>
+                        <div class="metric">
+                            <span class="metric-label">播放</span>
+                            <span class="metric-value">${formatNumber(v.play_count)}</span>
+                        </div>
+                        <div class="metric">
+                            <span class="metric-label">点赞</span>
+                            <span class="metric-value">${formatNumber(v.digg_count)}</span>
+                        </div>
+                        <div class="metric">
+                            <span class="metric-label">评论</span>
+                            <span class="metric-value">${formatNumber(v.comment_count)}</span>
+                        </div>
+                        <div class="metric">
+                            <span class="metric-label">分享</span>
+                            <span class="metric-value">${formatNumber(v.share_count)}</span>
+                        </div>
+                        <div class="metric">
+                            <span class="metric-label">发布时间</span>
+                            <span class="metric-value">${new Date(v.create_time * 1000).toLocaleDateString()}</span>
+                        </div>
+                    </div>
+                `).join('');
+                
+            } catch (error) {
+                document.getElementById('loading').innerHTML = '❌ 加载失败';
+                console.error(error);
+            }
+        }
+        
+        function formatNumber(num) {
+            if (num >= 10000) {
+                return (num / 10000).toFixed(1) + 'w';
+            }
+            return num.toLocaleString();
+        }
+        
+        loadData();
+        setInterval(loadData, 60000); // 每分钟刷新
+    </script>
+</body>
+</html>
