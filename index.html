@@ -163,7 +163,7 @@
                         </div>
                         <div class="metric">
                             <span class="metric-label">发布时间</span>
-                            <span class="metric-value">${new Date(v.publishAt * 1000).toLocaleDateString()}</span>
+                            <span class="metric-value">${v.publishAt ? v.publishAt.split(' ')[0] : '-'}</span>
                         </div>
                     </div>
                 `).join('');
