@@ -3,43 +3,49 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>三角洲陪玩 · 爆款超车小工具</title>
+    <title>抖音数据追踪 - 实时监控</title>
     <style>
-        * { margin: 0; padding: 0; box-sizing: border-box; }
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
         
         body {
-            font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", "Microsoft YaHei", sans-serif;
-            background: linear-gradient(135deg, #FAF7FF 0%, #E9D5FF 100%);
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Hiragino Sans GB', sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
             min-height: 100vh;
-            padding-bottom: 80px;
-        }
-        
-        /* 顶部固定栏 */
-        .header {
-            position: sticky;
-            top: 0;
-            background: rgba(250, 247, 255, 0.95);
-            backdrop-filter: blur(10px);
             padding: 20px;
-            box-shadow: 0 4px 20px rgba(179, 136, 235, 0.15);
-            z-index: 100;
-            border-radius: 0 0 25px 25px;
         }
         
-        .header-top {
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        
+        .header {
+            text-align: center;
+            color: white;
+            margin-bottom: 30px;
+        }
+        
+        .header h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+        }
+        
+        .status-bar {
+            background: rgba(255,255,255,0.2);
+            backdrop-filter: blur(10px);
+            padding: 15px 25px;
+            border-radius: 15px;
+            color: white;
+            font-size: 0.95em;
             display: flex;
             justify-content: space-between;
             align-items: center;
-            margin-bottom: 12px;
-        }
-        
-        .title {
-            font-size: 1.4em;
-            font-weight: 800;
-            color: #B388EB;
-            display: flex;
-            align-items: center;
-            gap: 8px;
+            margin-bottom: 20px;
         }
         
         .refresh-btn {
@@ -51,310 +57,156 @@
             font-size: 0.9em;
             font-weight: 600;
             cursor: pointer;
-            box-shadow: 0 4px 15px rgba(179, 136, 235, 0.3);
             transition: all 0.3s;
-            display: flex;
-            align-items: center;
-            gap: 6px;
         }
         
-        .refresh-btn:hover {
-            transform: translateY(-2px);
-            box-shadow: 0 6px 20px rgba(179, 136, 235, 0.4);
+        .refresh-btn:disabled {
+            background: #ccc;
+            cursor: not-allowed;
+            transform: none;
+            opacity: 0.6;
         }
         
-        .status-bar {
-            font-size: 0.85em;
-            color: #B388EB;
-            opacity: 0.7;
-            display: flex;
-            align-items: center;
-            gap: 6px;
+        .card {
+            background: white;
+            border-radius: 20px;
+            padding: 25px;
+            margin-bottom: 20px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
         }
         
-        /* 核心结论看板 */
+        .card h2 {
+            color: #667eea;
+            margin-bottom: 20px;
+            font-size: 1.5em;
+        }
+        
         .insights {
-            margin: 20px;
-            background: linear-gradient(135deg, #E9D5FF 0%, #D8B4FE 100%);
-            border-radius: 25px;
-            padding: 20px;
-            box-shadow: 0 8px 25px rgba(179, 136, 235, 0.2);
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
         }
         
         .insight-item {
-            background: rgba(255, 255, 255, 0.9);
-            border-radius: 20px;
-            padding: 15px;
-            margin-bottom: 12px;
-            box-shadow: 0 4px 15px rgba(179, 136, 235, 0.1);
-        }
-        
-        .insight-item:last-child { margin-bottom: 0; }
-        
-        .insight-label {
-            font-size: 0.85em;
-            color: #B388EB;
-            font-weight: 600;
-            margin-bottom: 8px;
-            display: flex;
-            align-items: center;
-            gap: 6px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 20px;
+            border-radius: 15px;
+            text-align: center;
         }
         
         .insight-value {
-            font-size: 1.05em;
-            color: #333;
-            font-weight: 700;
-            line-height: 1.5;
+            font-size: 2em;
+            font-weight: bold;
+            margin: 10px 0;
         }
         
-        /* 操作区 */
-        .actions {
-            margin: 20px;
-            background: white;
-            border-radius: 25px;
-            padding: 20px;
-            box-shadow: 0 8px 25px rgba(179, 136, 235, 0.15);
+        .insight-label {
+            font-size: 0.9em;
+            opacity: 0.9;
         }
         
-        .input-box {
+        .ranking-table {
             width: 100%;
-            padding: 15px 20px;
-            border: 2px solid #E9D5FF;
-            border-radius: 20px;
-            font-size: 1em;
-            background: #FAF7FF;
-            margin-bottom: 12px;
-            transition: all 0.3s;
+            border-collapse: collapse;
         }
         
-        .input-box:focus {
-            outline: none;
-            border-color: #B388EB;
-            box-shadow: 0 0 0 4px rgba(179, 136, 235, 0.1);
-        }
-        
-        .add-btn {
-            width: 100%;
-            background: #B388EB;
-            color: white;
-            border: none;
+        .ranking-table th {
+            background: #f8f9fa;
             padding: 15px;
-            border-radius: 20px;
-            font-size: 1em;
-            font-weight: 700;
-            cursor: pointer;
-            box-shadow: 0 6px 20px rgba(179, 136, 235, 0.3);
-            transition: all 0.3s;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            gap: 8px;
+            text-align: left;
+            font-weight: 600;
+            color: #667eea;
         }
         
-        .add-btn:hover {
-            transform: translateY(-2px);
-            box-shadow: 0 8px 25px rgba(179, 136, 235, 0.4);
-        }
-        
-        /* 排名列表 */
-        .ranking {
-            margin: 20px;
-        }
-        
-        .ranking-header {
-            display: grid;
-            grid-template-columns: 50px 1fr 100px 80px;
-            gap: 10px;
-            padding: 12px 15px;
-            font-size: 0.85em;
-            font-weight: 700;
-            color: #B388EB;
-            background: rgba(233, 213, 255, 0.5);
-            border-radius: 20px 20px 0 0;
-        }
-        
-        .ranking-item {
-            display: grid;
-            grid-template-columns: 50px 1fr 100px 80px;
-            gap: 10px;
+        .ranking-table td {
             padding: 15px;
-            background: white;
-            margin-bottom: 10px;
-            border-radius: 20px;
-            box-shadow: 0 4px 15px rgba(179, 136, 235, 0.1);
-            align-items: center;
-            transition: all 0.3s;
+            border-bottom: 1px solid #f0f0f0;
         }
         
-        .ranking-item:hover {
-            transform: translateX(5px);
-            box-shadow: 0 6px 20px rgba(179, 136, 235, 0.2);
+        .ranking-table tr:hover {
+            background: #f8f9fa;
         }
         
-        .ranking-item.top3 {
-            background: linear-gradient(135deg, #FAF7FF 0%, #E9D5FF 100%);
-        }
-        
-        .rank {
-            font-size: 1.2em;
-            font-weight: 800;
-            color: #B388EB;
+        .rank-badge {
+            display: inline-block;
+            width: 30px;
+            height: 30px;
+            line-height: 30px;
             text-align: center;
-        }
-        
-        .rank.medal::before {
-            font-size: 1.5em;
-            margin-right: 4px;
-        }
-        
-        .rank.medal-1::before { content: "🥇"; }
-        .rank.medal-2::before { content: "🥈"; }
-        .rank.medal-3::before { content: "🥉"; }
-        
-        .video-info {
-            display: flex;
-            flex-direction: column;
-            gap: 4px;
-        }
-        
-        .video-title {
-            font-size: 0.95em;
-            font-weight: 600;
-            color: #333;
-            overflow: hidden;
-            text-overflow: ellipsis;
-            white-space: nowrap;
-        }
-        
-        .video-highlight {
-            font-size: 0.8em;
-            color: #666;
-            overflow: hidden;
-            text-overflow: ellipsis;
-            white-space: nowrap;
-        }
-        
-        .growth-value {
-            font-size: 1.1em;
-            font-weight: 800;
-            text-align: center;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            gap: 4px;
-        }
-        
-        .growth-value.positive {
-            color: #36D399;
-        }
-        
-        .growth-value.negative {
-            color: #F87272;
-        }
-        
-        .view-btn {
-            background: #E9D5FF;
-            color: #B388EB;
-            border: none;
-            padding: 8px 12px;
-            border-radius: 15px;
-            font-size: 0.8em;
-            font-weight: 600;
-            cursor: pointer;
-            transition: all 0.3s;
-            white-space: nowrap;
-        }
-        
-        .view-btn:hover {
-            background: #B388EB;
+            border-radius: 50%;
+            font-weight: bold;
             color: white;
         }
         
-        .loading {
-            text-align: center;
-            color: #B388EB;
-            font-size: 1.2em;
-            padding: 50px 20px;
-            font-weight: 600;
-        }
+        .rank-1 { background: #FFD700; }
+        .rank-2 { background: #C0C0C0; }
+        .rank-3 { background: #CD7F32; }
+        .rank-other { background: #667eea; }
         
-        /* 移动端优化 */
-        @media (max-width: 768px) {
-            .ranking-header {
-                grid-template-columns: 40px 1fr 90px 70px;
-                font-size: 0.75em;
-                padding: 10px;
-            }
-            
-            .ranking-item {
-                grid-template-columns: 40px 1fr 90px 70px;
-                padding: 12px 10px;
-            }
-            
-            .title {
-                font-size: 1.1em;
-            }
-            
-            .video-title {
-                font-size: 0.85em;
-            }
-            
-            .video-highlight {
-                font-size: 0.75em;
-            }
+        #loading {
+            text-align: center;
+            padding: 50px;
+            color: white;
+            font-size: 1.2em;
         }
     </style>
 </head>
 <body>
-    <!-- 顶部固定栏 -->
-    <div class="header">
-        <div class="header-top">
-            <div class="title">
-                <span>🎮</span>
-                <span>三角洲陪玩 · 爆款超车小工具</span>
-            </div>
-            <button class="refresh-btn" onclick="loadData()">
-                <span>🔄</span>
-                <span>刷新</span>
-            </button>
+    <div class="container">
+        <div class="header">
+            <h1>📊 抖音数据追踪</h1>
+            <p>实时监控 · 智能分析</p>
         </div>
+        
         <div class="status-bar">
-            <span>⏰</span>
-            <span id="status">加载中...</span>
+            <div id="status">正在加载...</div>
+            <button class="refresh-btn" onclick="loadData(true)" id="refreshBtn">🔄 手动刷新</button>
+        </div>
+        
+        <div id="loading">⏳ 正在加载数据...</div>
+        
+        <div class="card" id="insights-card" style="display:none;">
+            <h2>📈 数据概览</h2>
+            <div class="insights" id="insights"></div>
+        </div>
+        
+        <div class="card" id="ranking-card" style="display:none;">
+            <h2>🏆 增长排行榜</h2>
+            <table class="ranking-table" id="ranking"></table>
         </div>
     </div>
     
-    <!-- 核心结论看板 -->
-    <div class="insights" id="insights"></div>
-    
-    <!-- 操作区 -->
-    <div class="actions">
-        <input type="text" class="input-box" placeholder="粘贴抖音作品链接呀" id="urlInput">
-        <button class="add-btn" onclick="addVideo()">
-            <span>➕</span>
-            <span>添加监控</span>
-        </button>
-    </div>
-    
-    <!-- 排名列表 -->
-    <div class="ranking">
-        <div class="ranking-header">
-            <div>排名</div>
-            <div>账号 / 爆点</div>
-            <div>6h增长</div>
-            <div>操作</div>
-        </div>
-        <div id="rankingList"></div>
-    </div>
-    
-    <div class="loading" id="loading">加载中...</div>
-
     <script>
         let allData = [];
         let lastUpdate = null;
+        let manualRefreshCount = 0;
+        const MAX_MANUAL_REFRESH = 2;
+        const AUTO_REFRESH_INTERVAL = 6 * 60 * 60 * 1000; // 6小时
         
-        async function loadData() {
+        async function loadData(isManual = false) {
+            if (isManual) {
+                const today = new Date().toDateString();
+                const savedDate = localStorage.getItem('refreshDate');
+                const savedCount = parseInt(localStorage.getItem('refreshCount') || '0');
+                
+                if (savedDate === today) {
+                    manualRefreshCount = savedCount;
+                } else {
+                    manualRefreshCount = 0;
+                    localStorage.setItem('refreshDate', today);
+                }
+                
+                if (manualRefreshCount >= MAX_MANUAL_REFRESH) {
+                    alert('❌ 今日手动刷新次数已用完（2/2）');
+                    return;
+                }
+                
+                manualRefreshCount++;
+                localStorage.setItem('refreshCount', manualRefreshCount);
+                updateRefreshButton();
+            }
+            
             try {
                 const response = await fetch(`data.csv?t=${Date.now()}`);
                 const text = await response.text();
@@ -383,8 +235,12 @@
                 });
                 
                 lastUpdate = new Date();
+                localStorage.setItem('lastUpdate', lastUpdate.toISOString());
                 
                 document.getElementById('loading').style.display = 'none';
+                document.getElementById('insights-card').style.display = 'block';
+                document.getElementById('ranking-card').style.display = 'block';
+                
                 updateStatus();
                 renderInsights();
                 renderRanking();
@@ -396,113 +252,119 @@
         
         function updateStatus() {
             const now = new Date();
-            const diff = Math.floor((now - lastUpdate) / 1000 / 60);
-            const nextUpdate = 360 - (diff % 360);
+            const lastUpdateTime = lastUpdate || new Date(localStorage.getItem('lastUpdate') || Date.now());
+            const diff = Math.floor((now - lastUpdateTime) / 1000 / 60);
+            const nextRefreshMin = Math.max(0, 360 - diff);
+            const nextRefreshHour = Math.floor(nextRefreshMin / 60);
+            const nextRefreshMinRem = nextRefreshMin % 60;
+            
+            const lastUpdateStr = lastUpdateTime.toLocaleString('zh-CN', {
+                year: 'numeric',
+                month: '2-digit',
+                day: '2-digit',
+                hour: '2-digit',
+                minute: '2-digit'
+            });
+            
+            const nextRefreshStr = nextRefreshHour > 0 
+                ? `${nextRefreshHour}小时${nextRefreshMinRem}分钟后`
+                : `${nextRefreshMinRem}分钟后`;
+            
             document.getElementById('status').innerHTML = 
-                `上次刷新：${diff}分钟前 · 下次自动刷新：${nextUpdate}分钟后`;
+                `上次刷新：${lastUpdateStr} | 下次自动刷新：${nextRefreshStr}`;
+        }
+        
+        function updateRefreshButton() {
+            const today = new Date().toDateString();
+            const savedDate = localStorage.getItem('refreshDate');
+            const savedCount = parseInt(localStorage.getItem('refreshCount') || '0');
+            
+            if (savedDate === today) {
+                manualRefreshCount = savedCount;
+            } else {
+                manualRefreshCount = 0;
+            }
+            
+            const btn = document.getElementById('refreshBtn');
+            if (manualRefreshCount >= MAX_MANUAL_REFRESH) {
+                btn.disabled = true;
+                btn.textContent = `🔄 已用完（${manualRefreshCount}/${MAX_MANUAL_REFRESH}）`;
+            } else {
+                btn.disabled = false;
+                btn.textContent = `🔄 手动刷新（${manualRefreshCount}/${MAX_MANUAL_REFRESH}）`;
+            }
         }
         
         function renderInsights() {
-            // 计算核心结论
-            const sorted = [...allData].sort((a, b) => (b.growth6h || 0) - (a.growth6h || 0));
-            const topVideo = sorted[0];
-            
-            // 提取高频标签
-            const tagCount = {};
-            allData.forEach(v => {
-                if (v.tags) {
-                    v.tags.split(/[,，、]/).forEach(tag => {
-                        tag = tag.trim();
-                        if (tag) tagCount[tag] = (tagCount[tag] || 0) + 1;
-                    });
-                }
-            });
-            const topTags = Object.entries(tagCount)
-                .sort((a, b) => b[1] - a[1])
-                .slice(0, 3)
-                .map(([tag]) => tag);
-            
-            // 统计发布时段
-            const hourCount = {};
-            allData.forEach(v => {
-                if (v.publishAt) {
-                    const hour = new Date(v.publishAt).getHours();
-                    hourCount[hour] = (hourCount[hour] || 0) + 1;
-                }
-            });
-            const bestHour = Object.entries(hourCount)
-                .sort((a, b) => b[1] - a[1])[0];
+            const totalViews = allData.reduce((sum, v) => sum + v.play_count, 0);
+            const totalLikes = allData.reduce((sum, v) => sum + v.digg_count, 0);
+            const avgViews = Math.floor(totalViews / allData.length);
             
             document.getElementById('insights').innerHTML = `
                 <div class="insight-item">
-                    <div class="insight-label">🔥 今日必抄爆款</div>
-                    <div class="insight-value">${topVideo?.author || '暂无'} - ${extractHighlight(topVideo)}</div>
+                    <div class="insight-label">总播放量</div>
+                    <div class="insight-value">${(totalViews / 10000).toFixed(1)}万</div>
                 </div>
                 <div class="insight-item">
-                    <div class="insight-label">🏷️ 必带爆款标签</div>
-                    <div class="insight-value">${topTags.join(' · ') || '暂无'}</div>
+                    <div class="insight-label">总点赞数</div>
+                    <div class="insight-value">${(totalLikes / 10000).toFixed(1)}万</div>
                 </div>
                 <div class="insight-item">
-                    <div class="insight-label">⏰ 最佳发布时间</div>
-                    <div class="insight-value">${bestHour ? `${bestHour[0]}:00 - ${parseInt(bestHour[0])+1}:00` : '暂无'}</div>
+                    <div class="insight-label">平均播放</div>
+                    <div class="insight-value">${(avgViews / 10000).toFixed(1)}万</div>
+                </div>
+                <div class="insight-item">
+                    <div class="insight-label">作品数量</div>
+                    <div class="insight-value">${allData.length}</div>
                 </div>
             `;
         }
         
-        function extractHighlight(video) {
-            if (!video) return '暂无数据';
-            const title = video.title || '';
-            // 简单提取：取前20字或第一个句号前的内容
-            const short = title.split(/[。！？]/)[0].slice(0, 20);
-            return short || '查看原视频';
-        }
-        
         function renderRanking() {
-            const sorted = [...allData].sort((a, b) => (b.growth6h || 0) - (a.growth6h || 0));
+            const sorted = [...allData].sort((a, b) => b.growth6h - a.growth6h).slice(0, 20);
             
-            const html = sorted.map((video, index) => {
-                const rank = index + 1;
-                const growth = video.growth6h || 0;
-                const isPositive = growth > 0;
-                const medalClass = rank <= 3 ? `medal medal-${rank}` : '';
-                const top3Class = rank <= 3 ? 'top3' : '';
-                
+            const rows = sorted.map((v, i) => {
+                const rankClass = i === 0 ? 'rank-1' : i === 1 ? 'rank-2' : i === 2 ? 'rank-3' : 'rank-other';
                 return `
-                    <div class="ranking-item ${top3Class}">
-                        <div class="rank ${medalClass}">${rank}</div>
-                        <div class="video-info">
-                            <div class="video-title">${video.author || '未知账号'}</div>
-                            <div class="video-highlight">${extractHighlight(video)}</div>
-                        </div>
-                        <div class="growth-value ${isPositive ? 'positive' : 'negative'}">
-                            ${isPositive ? '↑' : '↓'} ${Math.abs(growth).toLocaleString()}
-                        </div>
-                        <button class="view-btn" onclick="window.open('${video.url}', '_blank')">查看</button>
-                    </div>
+                    <tr>
+                        <td><span class="rank-badge ${rankClass}">${i + 1}</span></td>
+                        <td>${v.title || '无标题'}</td>
+                        <td>${v.author}</td>
+                        <td>${(v.play_count / 10000).toFixed(1)}万</td>
+                        <td>${(v.digg_count / 10000).toFixed(1)}万</td>
+                        <td>${v.comment_count}</td>
+                    </tr>
                 `;
             }).join('');
             
-            document.getElementById('rankingList').innerHTML = html;
+            document.getElementById('ranking').innerHTML = `
+                <thead>
+                    <tr>
+                        <th>排名</th>
+                        <th>标题</th>
+                        <th>作者</th>
+                        <th>播放量</th>
+                        <th>点赞数</th>
+                        <th>评论数</th>
+                    </tr>
+                </thead>
+                <tbody>${rows}</tbody>
+            `;
         }
         
-        function addVideo() {
-            const url = document.getElementById('urlInput').value.trim();
-            if (!url) {
-                alert('请输入抖音链接');
-                return;
+        // 自动刷新
+        setInterval(() => {
+            const now = new Date();
+            const lastUpdateTime = lastUpdate || new Date(localStorage.getItem('lastUpdate') || Date.now());
+            if (now - lastUpdateTime >= AUTO_REFRESH_INTERVAL) {
+                loadData(false);
             }
-            alert('添加功能需要后端支持，当前为演示版本');
-            document.getElementById('urlInput').value = '';
-        }
+            updateStatus();
+        }, 60000); // 每分钟更新一次状态
         
-        // 初始加载
-        loadData();
-        
-        // 每分钟更新状态栏
-        setInterval(updateStatus, 60000);
-        
-        // 每6小时自动刷新
-        setInterval(loadData, 6 * 60 * 60 * 1000);
+        // 初始化
+        updateRefreshButton();
+        loadData(false);
     </script>
 </body>
 </html>
