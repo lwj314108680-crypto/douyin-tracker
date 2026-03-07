@@ -356,9 +356,32 @@
         
         async function loadData() {
             try {
-                const response = await fetch(`data.json?t=${Date.now()}`);
-                const json = await response.json();
-                allData = json.videos || json;
+                const response = await fetch(`data.csv?t=${Date.now()}`);
+                const text = await response.text();
+                
+                // 手动解析 CSV
+                const lines = text.trim().split('\n');
+                const headers = lines[0].split(',');
+                
+                allData = lines.slice(1).map(line => {
+                    const values = line.split(',');
+                    const obj = {};
+                    headers.forEach((header, i) => {
+                        obj[header] = values[i];
+                    });
+                    
+                    // 转换数据类型
+                    obj.play_count = parseInt(obj.play_count) || 0;
+                    obj.digg_count = parseInt(obj.digg_count) || 0;
+                    obj.comment_count = parseInt(obj.comment_count) || 0;
+                    obj.share_count = parseInt(obj.share_count) || 0;
+                    obj.growth6h = obj.play_count; // 简化：用播放量作为增长指标
+                    obj.author = obj.author || '未知';
+                    obj.tags = obj.title ? obj.title.match(/#[^\s#]+/g)?.join(' ') || '' : '';
+                    
+                    return obj;
+                });
+                
                 lastUpdate = new Date();
                 
                 document.getElementById('loading').style.display = 'none';
@@ -366,7 +389,7 @@
                 renderInsights();
                 renderRanking();
             } catch (error) {
-                document.getElementById('loading').innerHTML = '❌ 加载失败';
+                document.getElementById('loading').innerHTML = '❌ 加载失败: ' + error.message;
                 console.error(error);
             }
         }
