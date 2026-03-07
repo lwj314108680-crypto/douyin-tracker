@@ -110,7 +110,7 @@
     <script>
         async function loadData() {
             try {
-                const response = await fetch('data/latest.json');
+                const response = await fetch('data.json');
                 const data = await response.json();
                 
                 document.getElementById('loading').style.display = 'none';
