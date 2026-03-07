@@ -116,9 +116,9 @@
                 document.getElementById('loading').style.display = 'none';
                 
                 // 统计数据
-                const totalViews = data.reduce((sum, v) => sum + v.play_count, 0);
-                const totalLikes = data.reduce((sum, v) => sum + v.digg_count, 0);
-                const totalComments = data.reduce((sum, v) => sum + v.comment_count, 0);
+                const totalViews = data.reduce((sum, v) => sum + v.playCount, 0);
+                const totalLikes = data.reduce((sum, v) => sum + (v.likeCount || 0), 0);
+                const totalComments = data.reduce((sum, v) => sum + (v.commentCount || 0), 0);
                 
                 document.getElementById('stats').innerHTML = `
                     <div class="stat-card">
@@ -144,26 +144,26 @@
                 
                 document.getElementById('videos').innerHTML = data.map(v => `
                     <div class="video-card">
-                        <div class="video-title">${v.desc || '无标题'}</div>
+                        <div class="video-title">${v.title || '无标题'}</div>
                         <div class="metric">
                             <span class="metric-label">播放</span>
-                            <span class="metric-value">${formatNumber(v.play_count)}</span>
+                            <span class="metric-value">${formatNumber(v.playCount)}</span>
                         </div>
                         <div class="metric">
                             <span class="metric-label">点赞</span>
-                            <span class="metric-value">${formatNumber(v.digg_count)}</span>
+                            <span class="metric-value">${formatNumber((v.likeCount || 0))}</span>
                         </div>
                         <div class="metric">
                             <span class="metric-label">评论</span>
-                            <span class="metric-value">${formatNumber(v.comment_count)}</span>
+                            <span class="metric-value">${formatNumber((v.commentCount || 0))}</span>
                         </div>
                         <div class="metric">
                             <span class="metric-label">分享</span>
-                            <span class="metric-value">${formatNumber(v.share_count)}</span>
+                            <span class="metric-value">${formatNumber((v.shareCount || 0))}</span>
                         </div>
                         <div class="metric">
                             <span class="metric-label">发布时间</span>
-                            <span class="metric-value">${new Date(v.create_time * 1000).toLocaleDateString()}</span>
+                            <span class="metric-value">${new Date(v.publishAt * 1000).toLocaleDateString()}</span>
                         </div>
                     </div>
                 `).join('');
