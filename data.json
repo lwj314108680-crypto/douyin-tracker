@@ -1,11 +1,20 @@
 {
   "videos": [
     {
+      "id": "7614442093633475173",
+      "authorName": "小圆奶芋饼",
+      "title": "三角洲女玩家。#三角洲 #三角洲行动 #三角洲陪玩",
+      "playCount": 380,
+      "delta": 0,
+      "publishAt": "2026/03/07 17:24:14",
+      "url": "https://www.douyin.com/video/7614442093633475173"
+    },
+    {
       "id": "7610398705572763307",
       "authorName": "晚安小公主",
       "title": "酸角粥陪丸看看我#三角洲 #三角洲女玩家",
       "playCount": 1642,
-      "delta": 94,
+      "delta": 0,
       "publishAt": "2026/02/24 19:53:52",
       "url": "https://www.douyin.com/video/7610398705572763307"
     },
@@ -14,18 +23,9 @@
       "authorName": "奈奈酱紫",
       "title": "女陪?#三角洲 #三角洲行动 #三角洲陪玩",
       "playCount": 589,
-      "delta": 22,
+      "delta": 0,
       "publishAt": "2026/03/08 21:57:53",
       "url": "https://www.douyin.com/video/7614883694293403209"
-    },
-    {
-      "id": "7614442093633475173",
-      "authorName": "小圆奶芋饼",
-      "title": "三角洲女玩家。#三角洲 #三角洲行动 #三角洲陪玩",
-      "playCount": 380,
-      "delta": 12,
-      "publishAt": "2026/03/07 17:24:14",
-      "url": "https://www.douyin.com/video/7614442093633475173"
     },
     {
       "id": "7611153973315861934",
@@ -91,5 +91,5 @@
       "url": "https://www.douyin.com/video/7613837934923487718"
     }
   ],
-  "updateTime": 1773129442000
+  "updateTime": 1773137293000
 }
