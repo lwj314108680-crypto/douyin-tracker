@@ -1,20 +1,29 @@
 {
   "videos": [
     {
-      "id": "7610000898173639345",
-      "authorName": "朵朵（三角洲主页",
-      "title": "猛攻！#三角洲 #三角洲行动 #三角洲陪玩 #三角洲女陪",
-      "playCount": 355,
-      "delta": 13,
-      "publishAt": "2026/02/23 18:10:08",
-      "url": "https://www.douyin.com/video/7610000898173639345"
+      "id": "7597354310866942393",
+      "authorName": "奈奈吃花菜",
+      "title": "来啊，猛攻！！！#三角洲行动",
+      "playCount": 1660,
+      "delta": 1,
+      "publishAt": "2026/01/20 16:14:57",
+      "url": "https://www.douyin.com/video/7597354310866942393"
+    },
+    {
+      "id": "7614442093633475173",
+      "authorName": "小圆奶芋饼",
+      "title": "三角洲女玩家。#三角洲 #三角洲行动 #三角洲陪玩",
+      "playCount": 448,
+      "delta": 0,
+      "publishAt": "2026/03/07 17:24:14",
+      "url": "https://www.douyin.com/video/7614442093633475173"
     },
     {
       "id": "7600715144159578298",
       "authorName": "小美 （?煮?）",
       "title": "三角洲女玩家，会聊天，有技术，懂分享#三角洲女玩家 #三角洲陪玩 #游戏陪玩 #三角洲行动 #陪玩日记",
       "playCount": 572,
-      "delta": 5,
+      "delta": 0,
       "publishAt": "2026/01/29 17:36:45",
       "url": "https://www.douyin.com/video/7600715144159578298"
     },
@@ -23,18 +32,9 @@
       "authorName": "桃恋（三角洲看煮页）",
       "title": "三角洲。pubg。#三角洲 #三角洲行动 #三角洲陪玩",
       "playCount": 259,
-      "delta": 5,
+      "delta": 0,
       "publishAt": "2026/03/06 02:19:56",
       "url": "https://www.douyin.com/video/7613837934923487718"
-    },
-    {
-      "id": "7611550004659196645",
-      "authorName": "小圆奶芋饼",
-      "title": "三角洲女玩家。#三角洲 #三角洲行动 #三角洲陪玩 #三角洲女陪",
-      "playCount": 120,
-      "delta": 1,
-      "publishAt": "2026/02/27 22:21:27",
-      "url": "https://www.douyin.com/video/7611550004659196645"
     },
     {
       "id": "7610000621982605166",
@@ -53,6 +53,15 @@
       "delta": 0,
       "publishAt": "2026/02/22 19:48:11",
       "url": "https://www.douyin.com/video/7609655081692524914"
+    },
+    {
+      "id": "7611550004659196645",
+      "authorName": "小圆奶芋饼",
+      "title": "三角洲女玩家。#三角洲 #三角洲行动 #三角洲陪玩 #三角洲女陪",
+      "playCount": 120,
+      "delta": 0,
+      "publishAt": "2026/02/27 22:21:27",
+      "url": "https://www.douyin.com/video/7611550004659196645"
     },
     {
       "id": "7609656783631615609",
@@ -80,16 +89,7 @@
       "delta": 0,
       "publishAt": "2026/02/25 00:09:53",
       "url": "https://www.douyin.com/video/7610464689307110547"
-    },
-    {
-      "id": "7609328486638364778",
-      "authorName": "小伊（三角洲看煮页）",
-      "title": "20块也是爱#三角洲 #三角洲女玩家 #三角洲行动",
-      "playCount": 3272,
-      "delta": 0,
-      "publishAt": "2026/02/21 22:40:53",
-      "url": "https://www.douyin.com/video/7609328486638364778"
     }
   ],
-  "updateTime": 1773172473000
+  "updateTime": 1773176603000
 }
