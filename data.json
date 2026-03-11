@@ -1,20 +1,11 @@
 {
   "videos": [
     {
-      "id": "7614916918022289253",
-      "authorName": "甜甜owo（三角洲主页",
-      "title": "三角洲女玩家。#三角洲 #三角洲行动 #三角洲陪玩",
-      "playCount": 336,
-      "delta": 142,
-      "publishAt": "2026/03/09 00:06:48",
-      "url": "https://www.douyin.com/video/7614916918022289253"
-    },
-    {
       "id": "7610398705572763307",
       "authorName": "晚安小公主",
       "title": "酸角粥陪丸看看我#三角洲 #三角洲女玩家",
-      "playCount": 1747,
-      "delta": 19,
+      "playCount": 1780,
+      "delta": 33,
       "publishAt": "2026/02/24 19:53:52",
       "url": "https://www.douyin.com/video/7610398705572763307"
     },
@@ -22,37 +13,46 @@
       "id": "7613335078953878907",
       "authorName": "小希（三角洲主页",
       "title": "三角洲陪。#三角洲 #三角洲行动 #三角洲陪玩 #三角洲女玩家",
-      "playCount": 270,
-      "delta": 6,
+      "playCount": 271,
+      "delta": 1,
       "publishAt": "2026/03/04 17:48:28",
       "url": "https://www.douyin.com/video/7613335078953878907"
-    },
-    {
-      "id": "7614442093633475173",
-      "authorName": "小圆奶芋饼",
-      "title": "三角洲女玩家。#三角洲 #三角洲行动 #三角洲陪玩",
-      "playCount": 454,
-      "delta": 5,
-      "publishAt": "2026/03/07 17:24:14",
-      "url": "https://www.douyin.com/video/7614442093633475173"
-    },
-    {
-      "id": "7614918796037845369",
-      "authorName": "困困小瑜（陪丸看煮页）",
-      "title": "三角洲女玩家三角洲女玩家 #三角洲 #三角洲行动 #三角洲陪玩",
-      "playCount": 473,
-      "delta": 3,
-      "publishAt": "2026/03/09 00:14:05",
-      "url": "https://www.douyin.com/video/7614918796037845369"
     },
     {
       "id": "7614863419133256825",
       "authorName": "小美 （?煮?）",
       "title": "三角洲行动三角洲行动 #三角洲行动 #三角洲陪玩 #三角洲 #三角洲女陪",
       "playCount": 562,
-      "delta": 1,
+      "delta": 0,
       "publishAt": "2026/03/08 20:39:11",
       "url": "https://www.douyin.com/video/7614863419133256825"
+    },
+    {
+      "id": "7614442093633475173",
+      "authorName": "小圆奶芋饼",
+      "title": "三角洲女玩家。#三角洲 #三角洲行动 #三角洲陪玩",
+      "playCount": 454,
+      "delta": 0,
+      "publishAt": "2026/03/07 17:24:14",
+      "url": "https://www.douyin.com/video/7614442093633475173"
+    },
+    {
+      "id": "7614916918022289253",
+      "authorName": "甜甜owo（三角洲主页",
+      "title": "三角洲女玩家。#三角洲 #三角洲行动 #三角洲陪玩",
+      "playCount": 336,
+      "delta": 0,
+      "publishAt": "2026/03/09 00:06:48",
+      "url": "https://www.douyin.com/video/7614916918022289253"
+    },
+    {
+      "id": "7614918796037845369",
+      "authorName": "困困小瑜（陪丸看煮页）",
+      "title": "三角洲女玩家三角洲女玩家 #三角洲 #三角洲行动 #三角洲陪玩",
+      "playCount": 473,
+      "delta": 0,
+      "publishAt": "2026/03/09 00:14:05",
+      "url": "https://www.douyin.com/video/7614918796037845369"
     },
     {
       "id": "7597354310866942393",
@@ -91,5 +91,5 @@
       "url": "https://www.douyin.com/video/7610000621982605166"
     }
   ],
-  "updateTime": 1773215895000
+  "updateTime": 1773223755000
 }
