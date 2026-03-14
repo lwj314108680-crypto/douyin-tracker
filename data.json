@@ -1,11 +1,20 @@
 {
   "videos": [
     {
+      "id": "7616009419432987002",
+      "authorName": "朵朵（三角洲主页",
+      "title": "三角洲。#三角洲行动 #三角洲陪玩 #三角洲女陪 #三角洲",
+      "playCount": 614,
+      "delta": 7,
+      "publishAt": "2026/03/11 22:46:16",
+      "url": "https://www.douyin.com/video/7616009419432987002"
+    },
+    {
       "id": "7616276147773212586",
       "authorName": "小黑（接陪丸）",
       "title": "三角洲女玩家#三角洲 #三角洲陪玩 #三角洲女玩家",
       "playCount": 700,
-      "delta": 73,
+      "delta": 0,
       "publishAt": "2026/03/12 16:01:18",
       "url": "https://www.douyin.com/video/7616276147773212586"
     },
@@ -46,15 +55,6 @@
       "url": "https://www.douyin.com/video/7616296765978363513"
     },
     {
-      "id": "7616009419432987002",
-      "authorName": "朵朵（三角洲主页",
-      "title": "三角洲。#三角洲行动 #三角洲陪玩 #三角洲女陪 #三角洲",
-      "playCount": 607,
-      "delta": 0,
-      "publishAt": "2026/03/11 22:46:16",
-      "url": "https://www.douyin.com/video/7616009419432987002"
-    },
-    {
       "id": "7616688275276758922",
       "authorName": "AX幸运星",
       "title": "三角洲女陪#三角洲 #三角洲陪玩 #三角洲行动",
@@ -91,5 +91,5 @@
       "url": "https://www.douyin.com/video/7613832689694923194"
     }
   ],
-  "updateTime": 1773500410000
+  "updateTime": 1773503656000
 }
