@@ -1,11 +1,20 @@
 {
   "videos": [
     {
+      "id": "7604449211664487282",
+      "authorName": "小小舟",
+      "title": "陪玩日记：每天都有试不完的音，但就是选不到我#三角洲行动 #三角洲 #三角洲陪玩",
+      "playCount": 4873,
+      "delta": 87,
+      "publishAt": "2026/02/08 19:06:46",
+      "url": "https://www.douyin.com/video/7604449211664487282"
+    },
+    {
       "id": "7616276147773212586",
       "authorName": "小黑（接陪丸）",
       "title": "三角洲女玩家#三角洲 #三角洲陪玩 #三角洲女玩家",
-      "playCount": 1026,
-      "delta": 125,
+      "playCount": 1061,
+      "delta": 35,
       "publishAt": "2026/03/12 16:01:18",
       "url": "https://www.douyin.com/video/7616276147773212586"
     },
@@ -13,19 +22,19 @@
       "id": "7616361503372959891",
       "authorName": "鑫鑫（三角洲主页",
       "title": "三角洲。#三角洲行动 #三角洲陪玩 #三角洲",
-      "playCount": 345,
-      "delta": 76,
+      "playCount": 352,
+      "delta": 7,
       "publishAt": "2026/03/12 21:32:32",
       "url": "https://www.douyin.com/video/7616361503372959891"
     },
     {
-      "id": "7604449211664487282",
-      "authorName": "小小舟",
-      "title": "陪玩日记：每天都有试不完的音，但就是选不到我#三角洲行动 #三角洲 #三角洲陪玩",
-      "playCount": 4786,
-      "delta": 0,
-      "publishAt": "2026/02/08 19:06:46",
-      "url": "https://www.douyin.com/video/7604449211664487282"
+      "id": "7615944159149737801",
+      "authorName": "奈奈酱紫",
+      "title": "哥哥 猛攻吗#三角洲 #三角洲行动",
+      "playCount": 237,
+      "delta": 4,
+      "publishAt": "2026/03/11 18:33:01",
+      "url": "https://www.douyin.com/video/7615944159149737801"
     },
     {
       "id": "7614442093633475173",
@@ -80,16 +89,7 @@
       "delta": 0,
       "publishAt": "2026/03/11 22:46:16",
       "url": "https://www.douyin.com/video/7616009419432987002"
-    },
-    {
-      "id": "7613832689694923194",
-      "authorName": "甜甜owo（三角洲主页",
-      "title": "三角洲陪 #三角洲 #三角洲行动 #三角洲陪玩",
-      "playCount": 162,
-      "delta": 0,
-      "publishAt": "2026/03/06 01:59:27",
-      "url": "https://www.douyin.com/video/7613832689694923194"
     }
   ],
-  "updateTime": 1773583239000
+  "updateTime": 1773590102000
 }
