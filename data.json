@@ -1,20 +1,20 @@
 {
   "videos": [
     {
-      "id": "7613832689694923194",
-      "authorName": "甜甜owo（三角洲主页",
-      "title": "三角洲陪 #三角洲 #三角洲行动 #三角洲陪玩",
-      "playCount": 190,
-      "delta": 3,
-      "publishAt": "2026/03/06 01:59:27",
-      "url": "https://www.douyin.com/video/7613832689694923194"
+      "id": "7619282375110087162",
+      "authorName": "朵朵（三角洲主页",
+      "title": "该猛攻啦~#三角洲陪玩 #三角洲 #三角洲行动 #三角洲女陪",
+      "playCount": 159,
+      "delta": 69,
+      "publishAt": "2026/03/20 18:27:00",
+      "url": "https://www.douyin.com/video/7619282375110087162"
     },
     {
       "id": "7620071973255345299",
       "authorName": "小黑（接陪丸）",
       "title": "不搞套路，真诚陪伴三角洲女大白菜价不搞套路，真诚陪伴三角洲女大白菜价 #三角洲 #三角洲行动 #三角洲搭子 #三角洲女玩家",
       "playCount": 109,
-      "delta": 2,
+      "delta": 0,
       "publishAt": "2026/03/22 21:31:03",
       "url": "https://www.douyin.com/video/7620071973255345299"
     },
@@ -23,7 +23,7 @@
       "authorName": "丸丸（三角洲看煮页）",
       "title": "拜托拜托看看我吧，女大甜美三角洲拜托拜托看看我吧，女大甜美三角洲 #三角洲 #三角洲行动 #三角洲女玩家 #三角洲护航 #三角洲搭子",
       "playCount": 160,
-      "delta": 1,
+      "delta": 0,
       "publishAt": "2026/03/22 21:30:20",
       "url": "https://www.douyin.com/video/7620071789007519850"
     },
@@ -32,7 +32,7 @@
       "authorName": "小希（三角洲主页",
       "title": "大坝航天技术可以大坝航天技术可以 #三角洲 #三角洲行动 #三角洲女玩家",
       "playCount": 414,
-      "delta": 1,
+      "delta": 0,
       "publishAt": "2026/03/21 21:46:19",
       "url": "https://www.douyin.com/video/7619704825248749179"
     },
@@ -41,18 +41,9 @@
       "authorName": "笨蛋打我掉头发",
       "title": "三角洲挣点零花钱三角洲挣点零花钱 #三角洲 #三角洲行动 #三角洲女玩家",
       "playCount": 68,
-      "delta": 1,
+      "delta": 0,
       "publishAt": "2026/03/21 21:44:58",
       "url": "https://www.douyin.com/video/7619704474940230747"
-    },
-    {
-      "id": "7604809042297325297",
-      "authorName": "椰椰",
-      "title": "洲瘾犯了！#三角洲 #三角洲行动 #三角洲女玩家",
-      "playCount": 812,
-      "delta": 1,
-      "publishAt": "2026/02/09 18:23:06",
-      "url": "https://www.douyin.com/video/7604809042297325297"
     },
     {
       "id": "7619698210421233905",
@@ -82,14 +73,23 @@
       "url": "https://www.douyin.com/video/7619693457095645681"
     },
     {
-      "id": "7614918796037845369",
-      "authorName": "困困小瑜（陪丸看煮页）",
-      "title": "三角洲女玩家三角洲女玩家 #三角洲 #三角洲行动 #三角洲陪玩",
-      "playCount": 495,
+      "id": "7604809042297325297",
+      "authorName": "椰椰",
+      "title": "洲瘾犯了！#三角洲 #三角洲行动 #三角洲女玩家",
+      "playCount": 812,
       "delta": 0,
-      "publishAt": "2026/03/09 00:14:05",
-      "url": "https://www.douyin.com/video/7614918796037845369"
+      "publishAt": "2026/02/09 18:23:06",
+      "url": "https://www.douyin.com/video/7604809042297325297"
+    },
+    {
+      "id": "7613832689694923194",
+      "authorName": "甜甜owo（三角洲主页",
+      "title": "三角洲陪 #三角洲 #三角洲行动 #三角洲陪玩",
+      "playCount": 190,
+      "delta": 0,
+      "publishAt": "2026/03/06 01:59:27",
+      "url": "https://www.douyin.com/video/7613832689694923194"
     }
   ],
-  "updateTime": 1774381055000
+  "updateTime": 1774389343000
 }
