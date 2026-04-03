@@ -1,11 +1,29 @@
 {
   "videos": [
     {
+      "id": "7616276147773212586",
+      "authorName": "小黑（接陪丸）",
+      "title": "三角洲女玩家#三角洲 #三角洲陪玩 #三角洲女玩家",
+      "playCount": 4388,
+      "delta": 1234,
+      "publishAt": "2026/03/12 16:01:18",
+      "url": "https://www.douyin.com/video/7616276147773212586"
+    },
+    {
+      "id": "7604449211664487282",
+      "authorName": "小小舟",
+      "title": "陪玩日记：每天都有试不完的音，但就是选不到我#三角洲行动 #三角洲 #三角洲陪玩",
+      "playCount": 6887,
+      "delta": 12,
+      "publishAt": "2026/02/08 19:06:46",
+      "url": "https://www.douyin.com/video/7604449211664487282"
+    },
+    {
       "id": "7624133737848378481",
       "authorName": "桃缘之地",
       "title": "找女陪玩最怕什么找女陪玩最怕什么 怕小姐姐脾气不好？不存在的#三角洲#三角洲行动#三角洲俱乐部#三角洲女玩家#游戏陪玩",
-      "playCount": 113,
-      "delta": 0,
+      "playCount": 121,
+      "delta": 8,
       "publishAt": "2026/04/02 20:12:46",
       "url": "https://www.douyin.com/video/7624133737848378481"
     },
@@ -13,8 +31,8 @@
       "id": "7621873816314629222",
       "authorName": "AX幸运星",
       "title": "一家亲民的俱乐部#三角洲行动 #三角洲陪玩",
-      "playCount": 1027,
-      "delta": 0,
+      "playCount": 1035,
+      "delta": 8,
       "publishAt": "2026/03/27 18:03:07",
       "url": "https://www.douyin.com/video/7621873816314629222"
     },
@@ -26,15 +44,6 @@
       "delta": 0,
       "publishAt": "2026/03/27 18:48:46",
       "url": "https://www.douyin.com/video/7621885581366485998"
-    },
-    {
-      "id": "7604449211664487282",
-      "authorName": "小小舟",
-      "title": "陪玩日记：每天都有试不完的音，但就是选不到我#三角洲行动 #三角洲 #三角洲陪玩",
-      "playCount": 6875,
-      "delta": 0,
-      "publishAt": "2026/02/08 19:06:46",
-      "url": "https://www.douyin.com/video/7604449211664487282"
     },
     {
       "id": "7610398705572763307",
@@ -80,16 +89,7 @@
       "delta": 0,
       "publishAt": "2026/04/01 10:30:00",
       "url": "https://www.douyin.com/video/7622682822147702345"
-    },
-    {
-      "id": "7623586462478673627",
-      "authorName": "长官商行",
-      "title": "三角洲哈佛币3月27日最新比例#三角洲行动 #三角洲#三角洲哈佛币 #哈佛币回收 #长官蛋商行（三角洲兄弟）",
-      "playCount": 511,
-      "delta": 0,
-      "publishAt": "2026/04/01 08:49:03",
-      "url": "https://www.douyin.com/video/7623586462478673627"
     }
   ],
-  "updateTime": 1775222462000
+  "updateTime": 1775228012000
 }
