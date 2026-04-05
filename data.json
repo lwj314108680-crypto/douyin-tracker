@@ -1,58 +1,13 @@
 {
   "videos": [
     {
-      "id": "7621873816314629222",
-      "authorName": "AX幸运星",
-      "title": "一家亲民的俱乐部#三角洲行动 #三角洲陪玩",
-      "playCount": 2422,
-      "delta": 6,
-      "publishAt": "2026/03/27 18:03:07",
-      "url": "https://www.douyin.com/video/7621873816314629222"
-    },
-    {
       "id": "7625171145390295130",
       "authorName": "籽籽 （三角洲看煮页）",
       "title": "三角洲女陪。#三角洲行动 #三角洲陪玩 #三角洲",
       "playCount": 79,
-      "delta": 4,
+      "delta": 0,
       "publishAt": "2026/04/05 15:18:26",
       "url": "https://www.douyin.com/video/7625171145390295130"
-    },
-    {
-      "id": "7624125493013289073",
-      "authorName": "小熊维尼（三角洲主页",
-      "title": "三角洲。#三角洲 #三角洲行动 #三角洲陪玩 #三角洲女玩家",
-      "playCount": 772,
-      "delta": 1,
-      "publishAt": "2026/04/02 19:40:46",
-      "url": "https://www.douyin.com/video/7624125493013289073"
-    },
-    {
-      "id": "7624133737848378481",
-      "authorName": "桃缘之地",
-      "title": "找女陪玩最怕什么找女陪玩最怕什么 怕小姐姐脾气不好？不存在的#三角洲#三角洲行动#三角洲俱乐部#三角洲女玩家#游戏陪玩",
-      "playCount": 141,
-      "delta": 1,
-      "publishAt": "2026/04/02 20:12:46",
-      "url": "https://www.douyin.com/video/7624133737848378481"
-    },
-    {
-      "id": "7621885581366485998",
-      "authorName": "七七艾特",
-      "title": "粥五啦  猛攻#三角洲行动 #三角洲陪玩",
-      "playCount": 623,
-      "delta": 1,
-      "publishAt": "2026/03/27 18:48:46",
-      "url": "https://www.douyin.com/video/7621885581366485998"
-    },
-    {
-      "id": "7621873266387737546",
-      "authorName": "奈奈酱紫",
-      "title": "打粥了喔#三角洲行动 #三角洲陪玩",
-      "playCount": 489,
-      "delta": 1,
-      "publishAt": "2026/03/27 18:00:59",
-      "url": "https://www.douyin.com/video/7621873266387737546"
     },
     {
       "id": "7620827952591664116",
@@ -73,6 +28,33 @@
       "url": "https://www.douyin.com/video/7624126173853948282"
     },
     {
+      "id": "7624125493013289073",
+      "authorName": "小熊维尼（三角洲主页",
+      "title": "三角洲。#三角洲 #三角洲行动 #三角洲陪玩 #三角洲女玩家",
+      "playCount": 772,
+      "delta": 0,
+      "publishAt": "2026/04/02 19:40:46",
+      "url": "https://www.douyin.com/video/7624125493013289073"
+    },
+    {
+      "id": "7624133737848378481",
+      "authorName": "桃缘之地",
+      "title": "找女陪玩最怕什么找女陪玩最怕什么 怕小姐姐脾气不好？不存在的#三角洲#三角洲行动#三角洲俱乐部#三角洲女玩家#游戏陪玩",
+      "playCount": 141,
+      "delta": 0,
+      "publishAt": "2026/04/02 20:12:46",
+      "url": "https://www.douyin.com/video/7624133737848378481"
+    },
+    {
+      "id": "7621885581366485998",
+      "authorName": "七七艾特",
+      "title": "粥五啦  猛攻#三角洲行动 #三角洲陪玩",
+      "playCount": 623,
+      "delta": 0,
+      "publishAt": "2026/03/27 18:48:46",
+      "url": "https://www.douyin.com/video/7621885581366485998"
+    },
+    {
       "id": "7622682822147702345",
       "authorName": "老飞宇商行（回收哈弗币）",
       "title": "4月1日哈弗币最新比例。#哈弗币#哈夫币#三角洲行动#哈弗币回收",
@@ -89,7 +71,25 @@
       "delta": 0,
       "publishAt": "2026/04/01 08:49:03",
       "url": "https://www.douyin.com/video/7623586462478673627"
+    },
+    {
+      "id": "7621873266387737546",
+      "authorName": "奈奈酱紫",
+      "title": "打粥了喔#三角洲行动 #三角洲陪玩",
+      "playCount": 489,
+      "delta": 0,
+      "publishAt": "2026/03/27 18:00:59",
+      "url": "https://www.douyin.com/video/7621873266387737546"
+    },
+    {
+      "id": "7621873816314629222",
+      "authorName": "AX幸运星",
+      "title": "一家亲民的俱乐部#三角洲行动 #三角洲陪玩",
+      "playCount": 2422,
+      "delta": 0,
+      "publishAt": "2026/03/27 18:03:07",
+      "url": "https://www.douyin.com/video/7621873816314629222"
     }
   ],
-  "updateTime": 1775428806000
+  "updateTime": 1775432501000
 }
