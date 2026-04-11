@@ -5,25 +5,16 @@
       "authorName": "皇帝商行客服",
       "title": "#哈夫币换馒头得吃。#鼠鼠得吃 #哈夫币 #哈夫币回收 #三角洲行动 #三角洲哈夫币 得吃啦，跑到哈夫币成功换馒头",
       "playCount": 1733,
-      "delta": 392,
+      "delta": 0,
       "publishAt": "2026/03/31 18:39:50",
       "url": "https://www.douyin.com/video/7623367618774954661"
-    },
-    {
-      "id": "7610398705572763307",
-      "authorName": "晚安小公主",
-      "title": "酸角粥陪丸看看我#三角洲 #三角洲女玩家",
-      "playCount": 5637,
-      "delta": 56,
-      "publishAt": "2026/02/24 19:53:52",
-      "url": "https://www.douyin.com/video/7610398705572763307"
     },
     {
       "id": "7626016540841114213",
       "authorName": "海心（接三角洲陪?）",
       "title": "三角洲女?。运气超好 出过10颗非洲之星#三角洲 #三角洲女玩家 #三角洲陪玩 #三角洲女陪",
       "playCount": 833,
-      "delta": 31,
+      "delta": 0,
       "publishAt": "2026/04/07 21:59:00",
       "url": "https://www.douyin.com/video/7626016540841114213"
     },
@@ -35,6 +26,15 @@
       "delta": 0,
       "publishAt": "2026/03/27 18:00:59",
       "url": "https://www.douyin.com/video/7621873266387737546"
+    },
+    {
+      "id": "7610398705572763307",
+      "authorName": "晚安小公主",
+      "title": "酸角粥陪丸看看我#三角洲 #三角洲女玩家",
+      "playCount": 5637,
+      "delta": 0,
+      "publishAt": "2026/02/24 19:53:52",
+      "url": "https://www.douyin.com/video/7610398705572763307"
     },
     {
       "id": "7626698808391765605",
@@ -91,5 +91,5 @@
       "url": "https://www.douyin.com/video/7625204110459323814"
     }
   ],
-  "updateTime": 1775891508000
+  "updateTime": 1775897702000
 }
