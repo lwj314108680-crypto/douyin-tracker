@@ -5,27 +5,27 @@
       "authorName": "小黑（接陪丸）",
       "title": "三角洲女玩家#三角洲 #三角洲陪玩 #三角洲女玩家",
       "playCount": 5004,
-      "delta": 384,
+      "delta": 0,
       "publishAt": "2026/03/12 16:01:18",
       "url": "https://www.douyin.com/video/7616276147773212586"
-    },
-    {
-      "id": "7613271152271014054",
-      "authorName": "定游电竞小天?",
-      "title": "三家洲陪?。#三角州 #三角洲女陪#三角洲陪玩",
-      "playCount": 968,
-      "delta": 305,
-      "publishAt": "2026/03/04 13:40:23",
-      "url": "https://www.douyin.com/video/7613271152271014054"
     },
     {
       "id": "7610398705572763307",
       "authorName": "晚安小公主",
       "title": "酸角粥陪丸看看我#三角洲 #三角洲女玩家",
       "playCount": 5694,
-      "delta": 57,
+      "delta": 0,
       "publishAt": "2026/02/24 19:53:52",
       "url": "https://www.douyin.com/video/7610398705572763307"
+    },
+    {
+      "id": "7613271152271014054",
+      "authorName": "定游电竞小天?",
+      "title": "三家洲陪?。#三角州 #三角洲女陪#三角洲陪玩",
+      "playCount": 968,
+      "delta": 0,
+      "publishAt": "2026/03/04 13:40:23",
+      "url": "https://www.douyin.com/video/7613271152271014054"
     },
     {
       "id": "7626698808391765605",
@@ -91,5 +91,5 @@
       "url": "https://www.douyin.com/video/7619268287780138121"
     }
   ],
-  "updateTime": 1775926121000
+  "updateTime": 1775929179000
 }
