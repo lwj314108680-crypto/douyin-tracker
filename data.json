@@ -1,11 +1,20 @@
 {
   "videos": [
     {
+      "id": "7614530322621267958",
+      "authorName": "雨晴",
+      "title": "纯瘾大#三角洲 #三角洲陪玩",
+      "playCount": 2694,
+      "delta": 64,
+      "publishAt": "2026/03/07 23:06:37",
+      "url": "https://www.douyin.com/video/7614530322621267958"
+    },
+    {
       "id": "7596952279325718962",
       "authorName": "小慧",
       "title": "三角洲女陪三角洲女陪 猛攻吗，我手感火热#三角洲 #三角洲行动 #三角洲女玩家#游戏陪玩#女陪玩",
       "playCount": 32225,
-      "delta": 3724,
+      "delta": 0,
       "publishAt": "2026/01/19 14:14:50",
       "url": "https://www.douyin.com/video/7596952279325718962"
     },
@@ -80,16 +89,7 @@
       "delta": 0,
       "publishAt": "2026/03/27 18:48:46",
       "url": "https://www.douyin.com/video/7621885581366485998"
-    },
-    {
-      "id": "7623586462478673627",
-      "authorName": "长官商行",
-      "title": "三角洲哈佛币3月27日最新比例#三角洲行动 #三角洲#三角洲哈佛币 #哈佛币回收 #长官蛋商行（三角洲兄弟）",
-      "playCount": 541,
-      "delta": 0,
-      "publishAt": "2026/04/01 08:49:03",
-      "url": "https://www.douyin.com/video/7623586462478673627"
     }
   ],
-  "updateTime": 1776012658000
+  "updateTime": 1776015717000
 }
