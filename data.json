@@ -1,11 +1,20 @@
 {
   "videos": [
     {
+      "id": "7628211919148851322",
+      "authorName": "椰椰",
+      "title": "三角洲三角洲 #三角洲陪玩 #三角洲行动 #三角洲",
+      "playCount": 466,
+      "delta": 23,
+      "publishAt": "2026/04/13 19:58:11",
+      "url": "https://www.douyin.com/video/7628211919148851322"
+    },
+    {
       "id": "7627820613437107059",
       "authorName": "笨蛋打我掉头发",
       "title": "粥嘛~#三角洲女陪 #三角洲陪玩 #三角洲行动",
       "playCount": 324,
-      "delta": 91,
+      "delta": 0,
       "publishAt": "2026/04/12 18:39:43",
       "url": "https://www.douyin.com/video/7627820613437107059"
     },
@@ -26,15 +35,6 @@
       "delta": 0,
       "publishAt": "2026/04/14 20:25:26",
       "url": "https://www.douyin.com/video/7628590022644362745"
-    },
-    {
-      "id": "7628211919148851322",
-      "authorName": "椰椰",
-      "title": "三角洲三角洲 #三角洲陪玩 #三角洲行动 #三角洲",
-      "playCount": 443,
-      "delta": 0,
-      "publishAt": "2026/04/13 19:58:11",
-      "url": "https://www.douyin.com/video/7628211919148851322"
     },
     {
       "id": "7627846987140793754",
@@ -91,5 +91,5 @@
       "url": "https://www.douyin.com/video/7625253252461288293"
     }
   ],
-  "updateTime": 1776254422000
+  "updateTime": 1776264480000
 }
