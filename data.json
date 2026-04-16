@@ -5,16 +5,25 @@
       "authorName": "小黑（接陪丸）",
       "title": "三角洲女玩家#三角洲 #三角洲陪玩 #三角洲女玩家",
       "playCount": 5364,
-      "delta": 170,
+      "delta": 0,
       "publishAt": "2026/03/12 16:01:18",
       "url": "https://www.douyin.com/video/7616276147773212586"
+    },
+    {
+      "id": "7627820613437107059",
+      "authorName": "笨蛋打我掉头发",
+      "title": "粥嘛~#三角洲女陪 #三角洲陪玩 #三角洲行动",
+      "playCount": 427,
+      "delta": 0,
+      "publishAt": "2026/04/12 18:39:43",
+      "url": "https://www.douyin.com/video/7627820613437107059"
     },
     {
       "id": "7628634234035406291",
       "authorName": "鑫鑫（三角洲主页",
       "title": "三角洲。三角洲。 #三角洲陪玩 #三角洲搭子 #三角洲女玩家 #三角洲",
       "playCount": 726,
-      "delta": 42,
+      "delta": 0,
       "publishAt": "2026/04/14 23:16:59",
       "url": "https://www.douyin.com/video/7628634234035406291"
     },
@@ -23,54 +32,18 @@
       "authorName": "小希（三角洲主页",
       "title": "双培超值，50两个，叫老公双培超值，50两个，叫老公 #三角洲 #三角洲行动 #三角洲陪玩 #三角洲女玩家 #找搭子陪玩",
       "playCount": 345,
-      "delta": 37,
+      "delta": 0,
       "publishAt": "2026/04/14 20:25:26",
       "url": "https://www.douyin.com/video/7628590022644362745"
-    },
-    {
-      "id": "7628211919148851322",
-      "authorName": "椰椰",
-      "title": "三角洲三角洲 #三角洲陪玩 #三角洲行动 #三角洲",
-      "playCount": 511,
-      "delta": 34,
-      "publishAt": "2026/04/13 19:58:11",
-      "url": "https://www.douyin.com/video/7628211919148851322"
-    },
-    {
-      "id": "7627820613437107059",
-      "authorName": "笨蛋打我掉头发",
-      "title": "粥嘛~#三角洲女陪 #三角洲陪玩 #三角洲行动",
-      "playCount": 427,
-      "delta": 30,
-      "publishAt": "2026/04/12 18:39:43",
-      "url": "https://www.douyin.com/video/7627820613437107059"
-    },
-    {
-      "id": "7626698685972713137",
-      "authorName": "小熊维尼（三角洲主页",
-      "title": "为什么你的三角洲打不好？为什么你的三角洲打不好？ #三角洲 #三角洲陪玩 #三角洲行动 #三角洲搭子",
-      "playCount": 204,
-      "delta": 3,
-      "publishAt": "2026/04/09 18:06:04",
-      "url": "https://www.douyin.com/video/7626698685972713137"
     },
     {
       "id": "7627846987140793754",
       "authorName": "清清. （?煮?）",
       "title": "两字欧美一字狂 从不静步之人#三角洲陪玩 #三角洲行动 #三角洲女陪",
       "playCount": 63,
-      "delta": 2,
+      "delta": 0,
       "publishAt": "2026/04/12 20:22:04",
       "url": "https://www.douyin.com/video/7627846987140793754"
-    },
-    {
-      "id": "7626698808391765605",
-      "authorName": "朵朵（三角洲主页",
-      "title": "三角洲没我 真不行啊三角洲没我 真不行啊 #三角洲 #三角洲陪玩 #三角洲行动 #三角洲搭子",
-      "playCount": 141,
-      "delta": 2,
-      "publishAt": "2026/04/09 18:06:33",
-      "url": "https://www.douyin.com/video/7626698808391765605"
     },
     {
       "id": "7627820608056086905",
@@ -89,7 +62,34 @@
       "delta": 0,
       "publishAt": "2026/04/11 22:23:16",
       "url": "https://www.douyin.com/video/7627507135735675889"
+    },
+    {
+      "id": "7628211919148851322",
+      "authorName": "椰椰",
+      "title": "三角洲三角洲 #三角洲陪玩 #三角洲行动 #三角洲",
+      "playCount": 511,
+      "delta": 0,
+      "publishAt": "2026/04/13 19:58:11",
+      "url": "https://www.douyin.com/video/7628211919148851322"
+    },
+    {
+      "id": "7626698808391765605",
+      "authorName": "朵朵（三角洲主页",
+      "title": "三角洲没我 真不行啊三角洲没我 真不行啊 #三角洲 #三角洲陪玩 #三角洲行动 #三角洲搭子",
+      "playCount": 141,
+      "delta": 0,
+      "publishAt": "2026/04/09 18:06:33",
+      "url": "https://www.douyin.com/video/7626698808391765605"
+    },
+    {
+      "id": "7626698685972713137",
+      "authorName": "小熊维尼（三角洲主页",
+      "title": "为什么你的三角洲打不好？为什么你的三角洲打不好？ #三角洲 #三角洲陪玩 #三角洲行动 #三角洲搭子",
+      "playCount": 204,
+      "delta": 0,
+      "publishAt": "2026/04/09 18:06:04",
+      "url": "https://www.douyin.com/video/7626698685972713137"
     }
   ],
-  "updateTime": 1776360206000
+  "updateTime": 1776367579000
 }
