@@ -1,11 +1,20 @@
 {
   "videos": [
     {
+      "id": "7614530322621267958",
+      "authorName": "雨晴",
+      "title": "纯瘾大#三角洲 #三角洲陪玩",
+      "playCount": 2961,
+      "delta": 33,
+      "publishAt": "2026/03/07 23:06:37",
+      "url": "https://www.douyin.com/video/7614530322621267958"
+    },
+    {
       "id": "7626016540841114213",
       "authorName": "海心（接三角洲陪?）",
       "title": "三角洲女?。运气超好 出过10颗非洲之星#三角洲 #三角洲女玩家 #三角洲陪玩 #三角洲女陪",
       "playCount": 4446,
-      "delta": 295,
+      "delta": 0,
       "publishAt": "2026/04/07 21:59:00",
       "url": "https://www.douyin.com/video/7626016540841114213"
     },
@@ -80,16 +89,7 @@
       "delta": 0,
       "publishAt": "1970/01/01 08:00:00",
       "url": "https://www.douyin.com/video/7610464689307110547"
-    },
-    {
-      "id": "7609328486638364778",
-      "authorName": null,
-      "title": "",
-      "playCount": 3272,
-      "delta": 0,
-      "publishAt": "1970/01/01 08:00:00",
-      "url": "https://www.douyin.com/video/7609328486638364778"
     }
   ],
-  "updateTime": 1777540870000
+  "updateTime": 1777549494000
 }
