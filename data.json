@@ -1,58 +1,40 @@
 {
   "videos": [
     {
-      "id": "7614530322621267958",
-      "authorName": "雨晴",
-      "title": "纯瘾大#三角洲 #三角洲陪玩",
-      "playCount": 2961,
-      "delta": 0,
-      "publishAt": "2026/03/07 23:06:37",
-      "url": "https://www.douyin.com/video/7614530322621267958"
+      "id": "7613832689694923194",
+      "authorName": "甜甜owo（三角洲主页",
+      "title": "三角洲陪 #三角洲 #三角洲行动 #三角洲陪玩",
+      "playCount": 270,
+      "delta": 43,
+      "publishAt": "2026/03/06 01:59:27",
+      "url": "https://www.douyin.com/video/7613832689694923194"
     },
     {
-      "id": "7626016540841114213",
-      "authorName": "海心（接三角洲陪?）",
-      "title": "三角洲女?。运气超好 出过10颗非洲之星#三角洲 #三角洲女玩家 #三角洲陪玩 #三角洲女陪",
-      "playCount": 4446,
-      "delta": 0,
-      "publishAt": "2026/04/07 21:59:00",
-      "url": "https://www.douyin.com/video/7626016540841114213"
+      "id": "7614442093633475173",
+      "authorName": "小圆奶芋饼",
+      "title": "三角洲女玩家。#三角洲 #三角洲行动 #三角洲陪玩",
+      "playCount": 1189,
+      "delta": 42,
+      "publishAt": "2026/03/07 17:24:14",
+      "url": "https://www.douyin.com/video/7614442093633475173"
     },
     {
-      "id": "7600715144159578298",
+      "id": "7614863419133256825",
       "authorName": "小美 （?煮?）",
-      "title": "三角洲女玩家，会聊天，有技术，懂分享#三角洲女玩家 #三角洲陪玩 #游戏陪玩 #三角洲行动 #陪玩日记",
-      "playCount": 681,
-      "delta": 0,
-      "publishAt": "2026/01/29 17:36:45",
-      "url": "https://www.douyin.com/video/7600715144159578298"
+      "title": "三角洲行动三角洲行动 #三角洲行动 #三角洲陪玩 #三角洲 #三角洲女陪",
+      "playCount": 658,
+      "delta": 2,
+      "publishAt": "2026/03/08 20:39:11",
+      "url": "https://www.douyin.com/video/7614863419133256825"
     },
     {
       "id": "7613837934923487718",
       "authorName": "桃恋（三角洲看煮页）",
       "title": "三角洲。pubg。#三角洲 #三角洲行动 #三角洲陪玩",
-      "playCount": 368,
-      "delta": 0,
+      "playCount": 369,
+      "delta": 1,
       "publishAt": "2026/03/06 02:19:56",
       "url": "https://www.douyin.com/video/7613837934923487718"
-    },
-    {
-      "id": "7610368526750282074",
-      "authorName": "清清. （?煮?）",
-      "title": "三角洲女陪。#三角洲 #三角洲行动 #三角洲陪玩 #三角洲女陪",
-      "playCount": 256,
-      "delta": 0,
-      "publishAt": "2026/02/24 17:56:45",
-      "url": "https://www.douyin.com/video/7610368526750282074"
-    },
-    {
-      "id": "7610000621982605166",
-      "authorName": null,
-      "title": "",
-      "playCount": 630,
-      "delta": 0,
-      "publishAt": "1970/01/01 08:00:00",
-      "url": "https://www.douyin.com/video/7610000621982605166"
     },
     {
       "id": "7611153973315861934",
@@ -64,13 +46,31 @@
       "url": "https://www.douyin.com/video/7611153973315861934"
     },
     {
-      "id": "7611550004659196645",
+      "id": "7614918796037845369",
+      "authorName": "困困小瑜（陪丸看煮页）",
+      "title": "三角洲女玩家三角洲女玩家 #三角洲 #三角洲行动 #三角洲陪玩",
+      "playCount": 497,
+      "delta": 0,
+      "publishAt": "2026/03/09 00:14:05",
+      "url": "https://www.douyin.com/video/7614918796037845369"
+    },
+    {
+      "id": "7614916918022289253",
       "authorName": null,
       "title": "",
-      "playCount": 196,
+      "playCount": 750,
       "delta": 0,
       "publishAt": "1970/01/01 08:00:00",
-      "url": "https://www.douyin.com/video/7611550004659196645"
+      "url": "https://www.douyin.com/video/7614916918022289253"
+    },
+    {
+      "id": "7610000621982605166",
+      "authorName": null,
+      "title": "",
+      "playCount": 630,
+      "delta": 0,
+      "publishAt": "1970/01/01 08:00:00",
+      "url": "https://www.douyin.com/video/7610000621982605166"
     },
     {
       "id": "7609656783631615609",
@@ -82,14 +82,14 @@
       "url": "https://www.douyin.com/video/7609656783631615609"
     },
     {
-      "id": "7610464689307110547",
+      "id": "7611550004659196645",
       "authorName": null,
       "title": "",
-      "playCount": 539,
+      "playCount": 196,
       "delta": 0,
       "publishAt": "1970/01/01 08:00:00",
-      "url": "https://www.douyin.com/video/7610464689307110547"
+      "url": "https://www.douyin.com/video/7611550004659196645"
     }
   ],
-  "updateTime": 1777643074000
+  "updateTime": 1777647823000
 }

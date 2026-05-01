@@ -875,6 +875,11 @@
       "play_count": 513,
       "timestamp": 1777643074,
       "date": "2026-05-01"
+    },
+    {
+      "play_count": 513,
+      "timestamp": 1777647823,
+      "date": "2026-05-01"
     }
   ],
   "7610000621982605166": [
@@ -1242,6 +1247,11 @@
       "play_count": 630,
       "timestamp": 1777643074,
       "date": "2026-05-01"
+    },
+    {
+      "play_count": 630,
+      "timestamp": 1777647823,
+      "date": "2026-05-01"
     }
   ],
   "7609656783631615609": [
@@ -1348,6 +1358,11 @@
     {
       "play_count": 525,
       "timestamp": 1777643074,
+      "date": "2026-05-01"
+    },
+    {
+      "play_count": 525,
+      "timestamp": 1777647823,
       "date": "2026-05-01"
     }
   ],
@@ -1973,6 +1988,11 @@
       "play_count": 196,
       "timestamp": 1777643074,
       "date": "2026-05-01"
+    },
+    {
+      "play_count": 196,
+      "timestamp": 1777647823,
+      "date": "2026-05-01"
     }
   ],
   "7610464689307110547": [
@@ -2540,6 +2560,11 @@
       "play_count": 1147,
       "timestamp": 1777386781,
       "date": "2026-04-28"
+    },
+    {
+      "play_count": 1189,
+      "timestamp": 1777647823,
+      "date": "2026-05-01"
     }
   ],
   "7609655081692524914": [
@@ -2960,199 +2985,9 @@
   ],
   "7613832689694923194": [
     {
-      "play_count": 187,
-      "timestamp": 1774310346,
-      "date": "2026-03-23"
-    },
-    {
-      "play_count": 187,
-      "timestamp": 1774329412,
-      "date": "2026-03-24"
-    },
-    {
-      "play_count": 187,
-      "timestamp": 1774352096,
-      "date": "2026-03-24"
-    },
-    {
-      "play_count": 187,
-      "timestamp": 1774367235,
-      "date": "2026-03-24"
-    },
-    {
-      "play_count": 190,
-      "timestamp": 1774381055,
-      "date": "2026-03-24"
-    },
-    {
-      "play_count": 190,
-      "timestamp": 1774389343,
-      "date": "2026-03-24"
-    },
-    {
-      "play_count": 190,
-      "timestamp": 1774393407,
-      "date": "2026-03-24"
-    },
-    {
-      "play_count": 195,
-      "timestamp": 1774415873,
-      "date": "2026-03-25"
-    },
-    {
-      "play_count": 195,
-      "timestamp": 1774425994,
-      "date": "2026-03-25"
-    },
-    {
-      "play_count": 213,
-      "timestamp": 1774438210,
-      "date": "2026-03-25"
-    },
-    {
-      "play_count": 213,
-      "timestamp": 1774454068,
-      "date": "2026-03-25"
-    },
-    {
-      "play_count": 215,
-      "timestamp": 1774463936,
-      "date": "2026-03-25"
-    },
-    {
-      "play_count": 215,
-      "timestamp": 1774479713,
-      "date": "2026-03-25"
-    },
-    {
-      "play_count": 215,
-      "timestamp": 1774504364,
-      "date": "2026-03-26"
-    },
-    {
-      "play_count": 215,
-      "timestamp": 1774514273,
-      "date": "2026-03-26"
-    },
-    {
-      "play_count": 215,
-      "timestamp": 1774526241,
-      "date": "2026-03-26"
-    },
-    {
-      "play_count": 215,
-      "timestamp": 1774542041,
-      "date": "2026-03-26"
-    },
-    {
-      "play_count": 215,
-      "timestamp": 1774555043,
-      "date": "2026-03-26"
-    },
-    {
-      "play_count": 215,
-      "timestamp": 1774561580,
-      "date": "2026-03-26"
-    },
-    {
-      "play_count": 215,
-      "timestamp": 1774566027,
-      "date": "2026-03-26"
-    },
-    {
-      "play_count": 215,
-      "timestamp": 1774590744,
-      "date": "2026-03-27"
-    },
-    {
-      "play_count": 215,
-      "timestamp": 1774611083,
-      "date": "2026-03-27"
-    },
-    {
-      "play_count": 215,
-      "timestamp": 1774624245,
-      "date": "2026-03-27"
-    },
-    {
-      "play_count": 215,
-      "timestamp": 1774636690,
-      "date": "2026-03-27"
-    },
-    {
-      "play_count": 215,
-      "timestamp": 1774641894,
-      "date": "2026-03-27"
-    },
-    {
-      "play_count": 217,
-      "timestamp": 1774655776,
-      "date": "2026-03-27"
-    },
-    {
-      "play_count": 219,
-      "timestamp": 1774674980,
-      "date": "2026-03-28"
-    },
-    {
-      "play_count": 219,
-      "timestamp": 1774684688,
-      "date": "2026-03-28"
-    },
-    {
-      "play_count": 219,
-      "timestamp": 1774691768,
-      "date": "2026-03-28"
-    },
-    {
-      "play_count": 220,
-      "timestamp": 1774695844,
-      "date": "2026-03-28"
-    },
-    {
-      "play_count": 220,
-      "timestamp": 1774706628,
-      "date": "2026-03-28"
-    },
-    {
-      "play_count": 220,
-      "timestamp": 1774713587,
-      "date": "2026-03-28"
-    },
-    {
-      "play_count": 223,
-      "timestamp": 1774720162,
-      "date": "2026-03-28"
-    },
-    {
-      "play_count": 223,
-      "timestamp": 1774727173,
-      "date": "2026-03-28"
-    },
-    {
-      "play_count": 223,
-      "timestamp": 1774731720,
-      "date": "2026-03-28"
-    },
-    {
-      "play_count": 223,
-      "timestamp": 1774738947,
-      "date": "2026-03-28"
-    },
-    {
-      "play_count": 224,
-      "timestamp": 1774763720,
-      "date": "2026-03-29"
-    },
-    {
-      "play_count": 227,
-      "timestamp": 1774894034,
-      "date": "2026-03-30"
-    },
-    {
-      "play_count": 227,
-      "timestamp": 1774906063,
-      "date": "2026-03-30"
+      "play_count": 270,
+      "timestamp": 1777647823,
+      "date": "2026-05-01"
     }
   ],
   "7613335078953878907": [
@@ -3306,6 +3141,11 @@
     {
       "play_count": 368,
       "timestamp": 1777643074,
+      "date": "2026-05-01"
+    },
+    {
+      "play_count": 369,
+      "timestamp": 1777647823,
       "date": "2026-05-01"
     }
   ],
@@ -3690,6 +3530,11 @@
       "play_count": 656,
       "timestamp": 1777457546,
       "date": "2026-04-29"
+    },
+    {
+      "play_count": 658,
+      "timestamp": 1777647823,
+      "date": "2026-05-01"
     }
   ],
   "7611119834373923700": [
@@ -4006,6 +3851,11 @@
       "play_count": 497,
       "timestamp": 1777457546,
       "date": "2026-04-29"
+    },
+    {
+      "play_count": 497,
+      "timestamp": 1777647823,
+      "date": "2026-05-01"
     }
   ],
   "7614916918022289253": [
@@ -4268,6 +4118,11 @@
       "play_count": 750,
       "timestamp": 1777457546,
       "date": "2026-04-29"
+    },
+    {
+      "play_count": 750,
+      "timestamp": 1777647823,
+      "date": "2026-05-01"
     }
   ],
   "7582916657711205642": [
