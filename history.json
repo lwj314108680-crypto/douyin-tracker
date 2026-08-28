@@ -773,66 +773,6 @@
   "7611153973315861934": [
     {
       "play_count": 513,
-      "timestamp": 1787287612,
-      "date": "2026-08-21"
-    },
-    {
-      "play_count": 513,
-      "timestamp": 1787290686,
-      "date": "2026-08-21"
-    },
-    {
-      "play_count": 513,
-      "timestamp": 1787295451,
-      "date": "2026-08-21"
-    },
-    {
-      "play_count": 513,
-      "timestamp": 1787298637,
-      "date": "2026-08-21"
-    },
-    {
-      "play_count": 513,
-      "timestamp": 1787302177,
-      "date": "2026-08-21"
-    },
-    {
-      "play_count": 513,
-      "timestamp": 1787305420,
-      "date": "2026-08-21"
-    },
-    {
-      "play_count": 513,
-      "timestamp": 1787308602,
-      "date": "2026-08-21"
-    },
-    {
-      "play_count": 513,
-      "timestamp": 1787311936,
-      "date": "2026-08-21"
-    },
-    {
-      "play_count": 513,
-      "timestamp": 1787317257,
-      "date": "2026-08-21"
-    },
-    {
-      "play_count": 513,
-      "timestamp": 1787323304,
-      "date": "2026-08-21"
-    },
-    {
-      "play_count": 513,
-      "timestamp": 1787326791,
-      "date": "2026-08-21"
-    },
-    {
-      "play_count": 513,
-      "timestamp": 1787330484,
-      "date": "2026-08-21"
-    },
-    {
-      "play_count": 513,
       "timestamp": 1787333717,
       "date": "2026-08-21"
     },
@@ -1384,72 +1324,17 @@
     {
       "play_count": 513,
       "timestamp": 1787890222,
+      "date": "2026-08-28"
+    },
+    {
+      "play_count": 513,
+      "timestamp": 1787937468,
       "date": "2026-08-28"
     }
   ],
   "7610000621982605166": [
     {
       "play_count": 630,
-      "timestamp": 1787287612,
-      "date": "2026-08-21"
-    },
-    {
-      "play_count": 630,
-      "timestamp": 1787290686,
-      "date": "2026-08-21"
-    },
-    {
-      "play_count": 630,
-      "timestamp": 1787295451,
-      "date": "2026-08-21"
-    },
-    {
-      "play_count": 630,
-      "timestamp": 1787298637,
-      "date": "2026-08-21"
-    },
-    {
-      "play_count": 630,
-      "timestamp": 1787302177,
-      "date": "2026-08-21"
-    },
-    {
-      "play_count": 630,
-      "timestamp": 1787305420,
-      "date": "2026-08-21"
-    },
-    {
-      "play_count": 630,
-      "timestamp": 1787308602,
-      "date": "2026-08-21"
-    },
-    {
-      "play_count": 630,
-      "timestamp": 1787311936,
-      "date": "2026-08-21"
-    },
-    {
-      "play_count": 630,
-      "timestamp": 1787317257,
-      "date": "2026-08-21"
-    },
-    {
-      "play_count": 630,
-      "timestamp": 1787323304,
-      "date": "2026-08-21"
-    },
-    {
-      "play_count": 630,
-      "timestamp": 1787326791,
-      "date": "2026-08-21"
-    },
-    {
-      "play_count": 630,
-      "timestamp": 1787330484,
-      "date": "2026-08-21"
-    },
-    {
-      "play_count": 630,
       "timestamp": 1787333717,
       "date": "2026-08-21"
     },
@@ -2002,69 +1887,14 @@
       "play_count": 630,
       "timestamp": 1787890222,
       "date": "2026-08-28"
+    },
+    {
+      "play_count": 630,
+      "timestamp": 1787937468,
+      "date": "2026-08-28"
     }
   ],
   "7609656783631615609": [
-    {
-      "play_count": 525,
-      "timestamp": 1787287612,
-      "date": "2026-08-21"
-    },
-    {
-      "play_count": 525,
-      "timestamp": 1787290686,
-      "date": "2026-08-21"
-    },
-    {
-      "play_count": 525,
-      "timestamp": 1787295451,
-      "date": "2026-08-21"
-    },
-    {
-      "play_count": 525,
-      "timestamp": 1787298637,
-      "date": "2026-08-21"
-    },
-    {
-      "play_count": 525,
-      "timestamp": 1787302177,
-      "date": "2026-08-21"
-    },
-    {
-      "play_count": 525,
-      "timestamp": 1787305420,
-      "date": "2026-08-21"
-    },
-    {
-      "play_count": 525,
-      "timestamp": 1787308602,
-      "date": "2026-08-21"
-    },
-    {
-      "play_count": 525,
-      "timestamp": 1787311936,
-      "date": "2026-08-21"
-    },
-    {
-      "play_count": 525,
-      "timestamp": 1787317257,
-      "date": "2026-08-21"
-    },
-    {
-      "play_count": 525,
-      "timestamp": 1787323304,
-      "date": "2026-08-21"
-    },
-    {
-      "play_count": 525,
-      "timestamp": 1787326791,
-      "date": "2026-08-21"
-    },
-    {
-      "play_count": 525,
-      "timestamp": 1787330484,
-      "date": "2026-08-21"
-    },
     {
       "play_count": 525,
       "timestamp": 1787333717,
@@ -2618,6 +2448,11 @@
     {
       "play_count": 525,
       "timestamp": 1787890222,
+      "date": "2026-08-28"
+    },
+    {
+      "play_count": 525,
+      "timestamp": 1787937468,
       "date": "2026-08-28"
     }
   ],
@@ -3633,66 +3468,6 @@
   "7614442093633475173": [
     {
       "play_count": 1189,
-      "timestamp": 1787287612,
-      "date": "2026-08-21"
-    },
-    {
-      "play_count": 1189,
-      "timestamp": 1787290686,
-      "date": "2026-08-21"
-    },
-    {
-      "play_count": 1189,
-      "timestamp": 1787295451,
-      "date": "2026-08-21"
-    },
-    {
-      "play_count": 1189,
-      "timestamp": 1787298637,
-      "date": "2026-08-21"
-    },
-    {
-      "play_count": 1189,
-      "timestamp": 1787302177,
-      "date": "2026-08-21"
-    },
-    {
-      "play_count": 1189,
-      "timestamp": 1787305420,
-      "date": "2026-08-21"
-    },
-    {
-      "play_count": 1189,
-      "timestamp": 1787308602,
-      "date": "2026-08-21"
-    },
-    {
-      "play_count": 1189,
-      "timestamp": 1787311936,
-      "date": "2026-08-21"
-    },
-    {
-      "play_count": 1189,
-      "timestamp": 1787317257,
-      "date": "2026-08-21"
-    },
-    {
-      "play_count": 1189,
-      "timestamp": 1787323304,
-      "date": "2026-08-21"
-    },
-    {
-      "play_count": 1189,
-      "timestamp": 1787326791,
-      "date": "2026-08-21"
-    },
-    {
-      "play_count": 1189,
-      "timestamp": 1787330484,
-      "date": "2026-08-21"
-    },
-    {
-      "play_count": 1189,
       "timestamp": 1787333717,
       "date": "2026-08-21"
     },
@@ -4244,6 +4019,11 @@
     {
       "play_count": 1189,
       "timestamp": 1787890222,
+      "date": "2026-08-28"
+    },
+    {
+      "play_count": 1189,
+      "timestamp": 1787937468,
       "date": "2026-08-28"
     }
   ],
@@ -4666,66 +4446,6 @@
   "7613832689694923194": [
     {
       "play_count": 270,
-      "timestamp": 1787287612,
-      "date": "2026-08-21"
-    },
-    {
-      "play_count": 270,
-      "timestamp": 1787290686,
-      "date": "2026-08-21"
-    },
-    {
-      "play_count": 270,
-      "timestamp": 1787295451,
-      "date": "2026-08-21"
-    },
-    {
-      "play_count": 270,
-      "timestamp": 1787298637,
-      "date": "2026-08-21"
-    },
-    {
-      "play_count": 270,
-      "timestamp": 1787302177,
-      "date": "2026-08-21"
-    },
-    {
-      "play_count": 270,
-      "timestamp": 1787305420,
-      "date": "2026-08-21"
-    },
-    {
-      "play_count": 270,
-      "timestamp": 1787308602,
-      "date": "2026-08-21"
-    },
-    {
-      "play_count": 270,
-      "timestamp": 1787311936,
-      "date": "2026-08-21"
-    },
-    {
-      "play_count": 270,
-      "timestamp": 1787317257,
-      "date": "2026-08-21"
-    },
-    {
-      "play_count": 270,
-      "timestamp": 1787323304,
-      "date": "2026-08-21"
-    },
-    {
-      "play_count": 270,
-      "timestamp": 1787326791,
-      "date": "2026-08-21"
-    },
-    {
-      "play_count": 270,
-      "timestamp": 1787330484,
-      "date": "2026-08-21"
-    },
-    {
-      "play_count": 270,
       "timestamp": 1787333717,
       "date": "2026-08-21"
     },
@@ -5278,6 +4998,11 @@
       "play_count": 270,
       "timestamp": 1787890222,
       "date": "2026-08-28"
+    },
+    {
+      "play_count": 270,
+      "timestamp": 1787937468,
+      "date": "2026-08-28"
     }
   ],
   "7613335078953878907": [
@@ -5328,66 +5053,6 @@
     }
   ],
   "7613837934923487718": [
-    {
-      "play_count": 369,
-      "timestamp": 1787287612,
-      "date": "2026-08-21"
-    },
-    {
-      "play_count": 369,
-      "timestamp": 1787290686,
-      "date": "2026-08-21"
-    },
-    {
-      "play_count": 369,
-      "timestamp": 1787295451,
-      "date": "2026-08-21"
-    },
-    {
-      "play_count": 369,
-      "timestamp": 1787298637,
-      "date": "2026-08-21"
-    },
-    {
-      "play_count": 369,
-      "timestamp": 1787302177,
-      "date": "2026-08-21"
-    },
-    {
-      "play_count": 369,
-      "timestamp": 1787305420,
-      "date": "2026-08-21"
-    },
-    {
-      "play_count": 369,
-      "timestamp": 1787308602,
-      "date": "2026-08-21"
-    },
-    {
-      "play_count": 369,
-      "timestamp": 1787311936,
-      "date": "2026-08-21"
-    },
-    {
-      "play_count": 369,
-      "timestamp": 1787317257,
-      "date": "2026-08-21"
-    },
-    {
-      "play_count": 369,
-      "timestamp": 1787323304,
-      "date": "2026-08-21"
-    },
-    {
-      "play_count": 369,
-      "timestamp": 1787326791,
-      "date": "2026-08-21"
-    },
-    {
-      "play_count": 369,
-      "timestamp": 1787330484,
-      "date": "2026-08-21"
-    },
     {
       "play_count": 369,
       "timestamp": 1787333717,
@@ -5941,6 +5606,11 @@
     {
       "play_count": 369,
       "timestamp": 1787890222,
+      "date": "2026-08-28"
+    },
+    {
+      "play_count": 369,
+      "timestamp": 1787937468,
       "date": "2026-08-28"
     }
   ],
@@ -6068,66 +5738,6 @@
   "7614863419133256825": [
     {
       "play_count": 658,
-      "timestamp": 1787287612,
-      "date": "2026-08-21"
-    },
-    {
-      "play_count": 658,
-      "timestamp": 1787290686,
-      "date": "2026-08-21"
-    },
-    {
-      "play_count": 658,
-      "timestamp": 1787295451,
-      "date": "2026-08-21"
-    },
-    {
-      "play_count": 658,
-      "timestamp": 1787298637,
-      "date": "2026-08-21"
-    },
-    {
-      "play_count": 658,
-      "timestamp": 1787302177,
-      "date": "2026-08-21"
-    },
-    {
-      "play_count": 658,
-      "timestamp": 1787305420,
-      "date": "2026-08-21"
-    },
-    {
-      "play_count": 658,
-      "timestamp": 1787308602,
-      "date": "2026-08-21"
-    },
-    {
-      "play_count": 658,
-      "timestamp": 1787311936,
-      "date": "2026-08-21"
-    },
-    {
-      "play_count": 658,
-      "timestamp": 1787317257,
-      "date": "2026-08-21"
-    },
-    {
-      "play_count": 658,
-      "timestamp": 1787323304,
-      "date": "2026-08-21"
-    },
-    {
-      "play_count": 658,
-      "timestamp": 1787326791,
-      "date": "2026-08-21"
-    },
-    {
-      "play_count": 658,
-      "timestamp": 1787330484,
-      "date": "2026-08-21"
-    },
-    {
-      "play_count": 658,
       "timestamp": 1787333717,
       "date": "2026-08-21"
     },
@@ -6679,6 +6289,11 @@
     {
       "play_count": 658,
       "timestamp": 1787890222,
+      "date": "2026-08-28"
+    },
+    {
+      "play_count": 658,
+      "timestamp": 1787937468,
       "date": "2026-08-28"
     }
   ],
@@ -6739,66 +6354,6 @@
   "7614918796037845369": [
     {
       "play_count": 497,
-      "timestamp": 1787287612,
-      "date": "2026-08-21"
-    },
-    {
-      "play_count": 497,
-      "timestamp": 1787290686,
-      "date": "2026-08-21"
-    },
-    {
-      "play_count": 497,
-      "timestamp": 1787295451,
-      "date": "2026-08-21"
-    },
-    {
-      "play_count": 497,
-      "timestamp": 1787298637,
-      "date": "2026-08-21"
-    },
-    {
-      "play_count": 497,
-      "timestamp": 1787302177,
-      "date": "2026-08-21"
-    },
-    {
-      "play_count": 497,
-      "timestamp": 1787305420,
-      "date": "2026-08-21"
-    },
-    {
-      "play_count": 497,
-      "timestamp": 1787308602,
-      "date": "2026-08-21"
-    },
-    {
-      "play_count": 497,
-      "timestamp": 1787311936,
-      "date": "2026-08-21"
-    },
-    {
-      "play_count": 497,
-      "timestamp": 1787317257,
-      "date": "2026-08-21"
-    },
-    {
-      "play_count": 497,
-      "timestamp": 1787323304,
-      "date": "2026-08-21"
-    },
-    {
-      "play_count": 497,
-      "timestamp": 1787326791,
-      "date": "2026-08-21"
-    },
-    {
-      "play_count": 497,
-      "timestamp": 1787330484,
-      "date": "2026-08-21"
-    },
-    {
-      "play_count": 497,
       "timestamp": 1787333717,
       "date": "2026-08-21"
     },
@@ -7351,69 +6906,14 @@
       "play_count": 497,
       "timestamp": 1787890222,
       "date": "2026-08-28"
+    },
+    {
+      "play_count": 497,
+      "timestamp": 1787937468,
+      "date": "2026-08-28"
     }
   ],
   "7614916918022289253": [
-    {
-      "play_count": 750,
-      "timestamp": 1787287612,
-      "date": "2026-08-21"
-    },
-    {
-      "play_count": 750,
-      "timestamp": 1787290686,
-      "date": "2026-08-21"
-    },
-    {
-      "play_count": 750,
-      "timestamp": 1787295451,
-      "date": "2026-08-21"
-    },
-    {
-      "play_count": 750,
-      "timestamp": 1787298637,
-      "date": "2026-08-21"
-    },
-    {
-      "play_count": 750,
-      "timestamp": 1787302177,
-      "date": "2026-08-21"
-    },
-    {
-      "play_count": 750,
-      "timestamp": 1787305420,
-      "date": "2026-08-21"
-    },
-    {
-      "play_count": 750,
-      "timestamp": 1787308602,
-      "date": "2026-08-21"
-    },
-    {
-      "play_count": 750,
-      "timestamp": 1787311936,
-      "date": "2026-08-21"
-    },
-    {
-      "play_count": 750,
-      "timestamp": 1787317257,
-      "date": "2026-08-21"
-    },
-    {
-      "play_count": 750,
-      "timestamp": 1787323304,
-      "date": "2026-08-21"
-    },
-    {
-      "play_count": 750,
-      "timestamp": 1787326791,
-      "date": "2026-08-21"
-    },
-    {
-      "play_count": 750,
-      "timestamp": 1787330484,
-      "date": "2026-08-21"
-    },
     {
       "play_count": 750,
       "timestamp": 1787333717,
@@ -7967,6 +7467,11 @@
     {
       "play_count": 750,
       "timestamp": 1787890222,
+      "date": "2026-08-28"
+    },
+    {
+      "play_count": 750,
+      "timestamp": 1787937468,
       "date": "2026-08-28"
     }
   ],
@@ -23374,66 +22879,6 @@
   "7635189291128408434": [
     {
       "play_count": 3674,
-      "timestamp": 1787287612,
-      "date": "2026-08-21"
-    },
-    {
-      "play_count": 3674,
-      "timestamp": 1787290686,
-      "date": "2026-08-21"
-    },
-    {
-      "play_count": 3674,
-      "timestamp": 1787295451,
-      "date": "2026-08-21"
-    },
-    {
-      "play_count": 3674,
-      "timestamp": 1787298637,
-      "date": "2026-08-21"
-    },
-    {
-      "play_count": 3674,
-      "timestamp": 1787302177,
-      "date": "2026-08-21"
-    },
-    {
-      "play_count": 3674,
-      "timestamp": 1787305420,
-      "date": "2026-08-21"
-    },
-    {
-      "play_count": 3674,
-      "timestamp": 1787308602,
-      "date": "2026-08-21"
-    },
-    {
-      "play_count": 3674,
-      "timestamp": 1787311936,
-      "date": "2026-08-21"
-    },
-    {
-      "play_count": 3674,
-      "timestamp": 1787317257,
-      "date": "2026-08-21"
-    },
-    {
-      "play_count": 3674,
-      "timestamp": 1787323304,
-      "date": "2026-08-21"
-    },
-    {
-      "play_count": 3674,
-      "timestamp": 1787326791,
-      "date": "2026-08-21"
-    },
-    {
-      "play_count": 3674,
-      "timestamp": 1787330484,
-      "date": "2026-08-21"
-    },
-    {
-      "play_count": 3674,
       "timestamp": 1787333717,
       "date": "2026-08-21"
     },
@@ -23985,6 +23430,11 @@
     {
       "play_count": 3674,
       "timestamp": 1787890222,
+      "date": "2026-08-28"
+    },
+    {
+      "play_count": 3674,
+      "timestamp": 1787937468,
       "date": "2026-08-28"
     }
   ]
